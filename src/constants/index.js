@@ -132,7 +132,7 @@ const experiences = [
     },
     {
         title: "Head Chef",
-        company_name: "Costumbres",
+        company_name: "Soportales Vinotales SL",
         icon: tesla,
         iconBg: "#E6DEDD",
         date: "May 2021 - May 2023",
@@ -144,7 +144,7 @@ const experiences = [
     },
     {
         title: "Fullstack Web Developer",
-        company_name: "Assembler Institute",
+        company_name: "Assembler Institute of Technology Barcelona",
         icon: shopify,
         iconBg: "#383E56",
         date: "March 2023 - Oct 2023",

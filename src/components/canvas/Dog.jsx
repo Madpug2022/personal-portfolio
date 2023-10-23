@@ -43,6 +43,7 @@ const DogCanvas = () => {
         />
         <Dog />
       </Suspense>
+      <Preload all />
     </Canvas>
   )
 }
