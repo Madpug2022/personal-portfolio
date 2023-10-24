@@ -177,11 +177,11 @@ const testimonials = [
     },
     {
         testimonial:
-            "As a developer, Matías's technical skills are top-notch. He has a deep understanding of [mention any specific programming languages, tools, or technologies] and has a proven track record of successfully delivering complex projects on time and within budget.",
-        name: "Facundo Herrera",
+            "I highly recommend Matias Alaimo. He is a friendly and cooperative team player who demonstrates good competence. Matias is always ready to lend a helping hand to his colleagues, making him a valuable asset to any team. His dedication and willingness to collaborate are truly commendable qualities.",
+        name: "Néstor Menéndez Echevarría",
         designation: "Developer",
         company: "Assembler Institute of Technology",
-        image: "https://media.licdn.com/dms/image/D4E35AQEN_QmH6I3z7A/profile-framedphoto-shrink_400_400/0/1648416221880?e=1698670800&v=beta&t=Goz_PuQJEWV1lxQW6N1wrKwmPn-LXCiUpWVRxsCvdo4",
+        image: "https://media.licdn.com/dms/image/D4D03AQEPMqsWt_7TWA/profile-displayphoto-shrink_400_400/0/1695891781965?e=1703721600&v=beta&t=JTvMmRxQwPIqNPKwh7rBxiia3STUQlyQWLPTciPo8cI",
     },
 ];
 
