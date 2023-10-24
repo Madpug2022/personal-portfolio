@@ -34,7 +34,7 @@ const Contact = () => {
         to_email: 'matias.chiappa.022@gmail.com',
         message: form.message
       },
-      'Hz4WpP6dX5_I0VKW'
+      '-Hz4WpP6dX5_I0VKW'
     )
       .then(() => {
         setLoading(false);
