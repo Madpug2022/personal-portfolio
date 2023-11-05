@@ -118,7 +118,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "System Analist helper",
+        title: "System Analist Assistant",
         company_name: "Costumbres Arg. SRL.",
         icon: starbucks,
         iconBg: "#383E56",
@@ -126,7 +126,7 @@ const experiences = [
         points: [
             "Assinsting the web enginners fixing the webpage and application.",
             "Answering support tickets.",
-            "Loadinng financial status in SQL Database",
+            "Loading financial status in SQL Database",
             "Writing financial status monthly.",
         ],
     },
@@ -165,7 +165,7 @@ const testimonials = [
         name: "Fran Pérez Alberca",
         designation: "Developer",
         company: "Assembler Institute of Technology",
-        image: "https://media.licdn.com/dms/image/D4D35AQG9UbjVaip14g/profile-framedphoto-shrink_400_400/0/1695721007701?e=1698670800&v=beta&t=ICqQkcJLrpeYSuNxEwT1vCgGRCHO_kHUjNQfwviAJtE",
+        image: "https://avatars.githubusercontent.com/u/131665298?v=4",
     },
     {
         testimonial:
@@ -173,7 +173,7 @@ const testimonials = [
         name: " Luis Jover Pérez",
         designation: "Developer",
         company: "Assembler Institute of Technology",
-        image: "https://media.licdn.com/dms/image/D4D35AQHEh6NsAGraQw/profile-framedphoto-shrink_400_400/0/1697465149592?e=1698670800&v=beta&t=XrarlFXMhHotlWnLSxPGgeINxIlTxGRddTjrWFW8MEE",
+        image: "https://avatars.githubusercontent.com/u/129792624?v=4",
     },
     {
         testimonial:
@@ -228,7 +228,7 @@ const projects = [
         ],
         image: jobit,
         source_code_link: "https://github.com/Madpug2022/Moviehub-nextjs",
-        deploy_url: 'moviehub-nextjs.vercel.app'
+        deploy_url: 'https://moviehub-nextjs.vercel.app/'
     },
     {
         name: "Apollofy Audio Streaming",
