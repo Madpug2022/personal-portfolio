@@ -24,8 +24,9 @@ import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png"
 import jest from "./tech/jest.png"
 import bootstrap from "./tech/bootstrap.png"
+import sql from './tech/Sql.png'
 
-import meta from "./company/meta.png";
+import meta from "./company/metary_tech.jpg";
 import shopify from "./company/assembler.png";
 import starbucks from "./company/costumbres.jpg";
 import tesla from "./company/chef.jpg";
@@ -66,5 +67,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  angular
+  angular,
+  sql
 };

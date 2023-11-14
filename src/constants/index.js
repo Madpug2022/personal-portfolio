@@ -11,20 +11,18 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
     angular,
     jest,
     bootstrap,
+    meta,
+    sql,
 } from "../assets";
 
 export const navLinks = [
@@ -95,7 +93,7 @@ const technologies = [
         icon: jest,
     },
     {
-        name: "Tailwind CSS",
+        name: "Tailwind",
         icon: tailwind,
     },
     {
@@ -107,8 +105,8 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "SQL Databases",
+        icon: sql,
     },
     {
         name: "git",
@@ -121,41 +119,53 @@ const experiences = [
         title: "System Analist Assistant",
         company_name: "Costumbres Arg. SRL.",
         icon: starbucks,
-        iconBg: "#383E56",
+        iconBg: "#040404",
         date: "February 2014 - July 2020",
         points: [
-            "Assinsting the web enginners fixing the webpage and application.",
-            "Answering support tickets.",
-            "Loading financial status in SQL Database",
-            "Writing financial status monthly.",
+            "Provided invaluable assistance to web engineers in diagnosing and resolving issues with webpages and applications. Demonstrated a collaborative approach, contributing technical expertise to ensure the seamless functionality and optimal performance of digital assets.",
+            "Managed the retrieval and resolution of support tickets from the IT department, displaying a keen ability to address and resolve issues promptly. Ensured a streamlined process for handling IT-related concerns, contributing to the overall efficiency of organizational operations.",
+            "Executed the loading of financial data into the SQL database, showcasing meticulous attention to detail in managing critical financial information. Implemented robust data handling practices, contributing to the accuracy and integrity of financial records within the organization.",
+            "Engaged in frontend development tasks using HTML, CSS, and Vanilla JavaScript. Exhibited proficiency in crafting user interfaces with a focus on clean, efficient, and responsive design. Contributed to the enhancement of the user experience through the application of frontend development best practices.",
         ],
     },
     {
         title: "Head Chef",
         company_name: "Soportales Vinotales SL",
         icon: tesla,
-        iconBg: "#E6DEDD",
+        iconBg: "#FFFFFF",
         date: "May 2021 - May 2023",
         points: [
-            "Head chef at restaurant in Pontevedra.",
-            "Desing menu",
-            "Contact supliers"
+            "Served as the Head Chef at a distinguished restaurant in Pontevedra, demonstrating visionary leadership in culinary operations. Oversaw the entire kitchen, orchestrating a team of culinary professionals to deliver exceptional dining experiences.",
+            "Applied strategic culinary acumen to meticulously design and curate a diverse and enticing menu. Infused creativity and expertise into menu development, ensuring a harmonious balance of flavors, textures, and presentation that captivated the palate of discerning diners.",
+            "Established and maintained crucial relationships with suppliers, playing a pivotal role in the procurement of high-quality ingredients. Demonstrated effective communication and negotiation skills to secure optimal deals, guaranteeing the restaurant's commitment to excellence in every dish served."
         ],
     },
     {
         title: "Fullstack Web Developer",
         company_name: "Assembler Institute of Technology Barcelona",
         icon: shopify,
-        iconBg: "#383E56",
+        iconBg: "#D80720",
         date: "March 2023 - Oct 2023",
         points: [
-            "Writing and fixing code under Agile methods like Kanban and Scrum.",
-            "Colaborating with partners to bring clean code and friendly user interfaces.",
-            "Working with the latest technologies such as: Javascript, Typescript, React, Angular, NodeJs, NextJs, and other libraries",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Proficiently authored and refined code within the framework of Scrum methodologies, ensuring a structured and efficient development process. Maintained a commitment to agile principles, fostering a collaborative environment for optimized project delivery.",
+            "Collaborated closely with strategic partners to implement and deliver code of the highest standard. Prioritized the creation of clean codebases and user interfaces that not only met but exceeded industry expectations, ensuring a superior user experience.",
+            "Demonstrated expertise in leveraging cutting-edge technologies, including but not limited to Javascript, Typescript, React, Angular, NodeJs, NextJs, MongoDB, Express, Redux, Styled components, and Jest. Maintained a proactive approach to staying abreast of the latest advancements, contributing to a technologically progressive work environment.",
+            "Actively participated in comprehensive code reviews, offering constructive and insightful feedback to fellow developers. Contributed to the enhancement of overall code quality, fostering a culture of continuous improvement and knowledge sharing within the development team.",
+        ],
+    },
+    {
+        title: "Fullstack Developer",
+        company_name: "Metary.Tech",
+        icon: meta,
+        iconBg: "#FFFFFF",
+        date: "Sept 2023 - Now",
+        points: [
+            "Spearheaded the creation of a groundbreaking Web3 search platform, elevating blockchain exploration to unprecedented levels. Engineered the first-of-its-kind system integrating GPT technology for seamless and intelligent content discovery in the blockchain realm",
+            "Expertly navigated a diverse tech stack, seamlessly combining React, Tailwind, Node.js (AdonisJS), PostgreSQL, and PHP to craft a powerful and efficient search engine. Demonstrated prowess in harnessing the full potential of each technology to deliver a robust and high-performing platform.",
+            "Orchestrated the development process with the precision of Scrum methodology, utilizing GitHub and Jira for streamlined collaboration and project management. Ensured a nimble and adaptive workflow, allowing the team to respond dynamically to the evolving needs of the project.",
+            "Enforced a standard of excellence through the implementation of clean code practices. Meticulously crafted a codebase that not only fuels the platform's functionality but also stands as a testament to the commitment to quality, readability, and maintainability.",
         ],
     }
-
 ];
 
 const testimonials = [

@@ -5,6 +5,7 @@ import { styles } from '../style';
 import { DogCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const formRef = useRef();
@@ -14,6 +15,7 @@ const Contact = () => {
     message: ''
   });
   const [loading, setLoading] = useState(false);
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,6 +26,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    if (!emailRegex.test(form.email)) {
+      toast.error('Please enter a valid email address');
+      return;
+    }
+    if (form.name === '') {
+      toast.error('Please enter your name');
+      return;
+    }
+    if (form.message === '') {
+      toast.error('Please enter a message');
+      return;
+    }
     emailjs.send(
       'service_950aqqq',
       'template_u9smn6p',
@@ -38,7 +52,7 @@ const Contact = () => {
     )
       .then(() => {
         setLoading(false);
-        alert('Email was send, i will contact you as soon as posible');
+        toast.success('Email sent successfully!');
         setForm({
           name: '',
           email: '',
@@ -47,7 +61,7 @@ const Contact = () => {
       }, (error) => {
         setLoading(false);
         console.log(error);
-        alert('Something went wrong, email was not sent.')
+        toast.error('Something went wrong, email was not sent.')
       })
   };
 
