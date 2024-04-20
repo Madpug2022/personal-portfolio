@@ -27,13 +27,17 @@ import bootstrap from "./tech/bootstrap.png"
 import sql from './tech/Sql.png'
 
 import meta from "./company/metary_tech.jpg";
-import shopify from "./company/assembler.png";
+import shopify from "./company/blockchainl.jpg";
 import starbucks from "./company/costumbres.jpg";
 import tesla from "./company/chef.jpg";
+import trc from "./company/grupo_trc_logo.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pokedex from "./pokedex.png";
+import mediaStop from "./meddiastop.png";
+import museum from "./3dMuseum.png";
 
 export {
   vercel,
@@ -68,5 +72,9 @@ export {
   jobit,
   tripguide,
   angular,
-  sql
+  sql,
+  pokedex,
+  mediaStop,
+  museum,
+  trc
 };

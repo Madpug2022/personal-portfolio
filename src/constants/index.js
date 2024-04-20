@@ -23,6 +23,10 @@ import {
     bootstrap,
     meta,
     sql,
+    mediaStop,
+    pokedex,
+    museum,
+    trc,
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +37,10 @@ export const navLinks = [
     {
         id: "work",
         title: "Work",
+    },
+    {
+        id: "projects",
+        title: "Projects",
     },
     {
         id: "contact",
@@ -116,16 +124,14 @@ const technologies = [
 
 const experiences = [
     {
-        title: "System Analist Assistant",
+        title: "Junior Fullstack Dev.",
         company_name: "Costumbres Arg. SRL.",
         icon: starbucks,
         iconBg: "#040404",
-        date: "February 2014 - July 2020",
+        date: "Jan 2018 - July 2020",
         points: [
-            "Provided invaluable assistance to web engineers in diagnosing and resolving issues with webpages and applications. Demonstrated a collaborative approach, contributing technical expertise to ensure the seamless functionality and optimal performance of digital assets.",
-            "Managed the retrieval and resolution of support tickets from the IT department, displaying a keen ability to address and resolve issues promptly. Ensured a streamlined process for handling IT-related concerns, contributing to the overall efficiency of organizational operations.",
-            "Executed the loading of financial data into the SQL database, showcasing meticulous attention to detail in managing critical financial information. Implemented robust data handling practices, contributing to the accuracy and integrity of financial records within the organization.",
-            "Engaged in frontend development tasks using HTML, CSS, and Vanilla JavaScript. Exhibited proficiency in crafting user interfaces with a focus on clean, efficient, and responsive design. Contributed to the enhancement of the user experience through the application of frontend development best practices.",
+            "Assisted in the creaation aand implementation of 4 diferrent Ecommerce pages built on React and NodeJs, with a SQL database, that allowed the company to have a fresh and modern online presence.",
+            "Managed the retrieval and resolution of support tickets from the IT department, displaying a keen ability to address and resolve issues promptly. ",
         ],
     },
     {
@@ -136,36 +142,42 @@ const experiences = [
         date: "May 2021 - May 2023",
         points: [
             "Served as the Head Chef at a distinguished restaurant in Pontevedra, demonstrating visionary leadership in culinary operations. Oversaw the entire kitchen, orchestrating a team of culinary professionals to deliver exceptional dining experiences.",
-            "Applied strategic culinary acumen to meticulously design and curate a diverse and enticing menu. Infused creativity and expertise into menu development, ensuring a harmonious balance of flavors, textures, and presentation that captivated the palate of discerning diners.",
-            "Established and maintained crucial relationships with suppliers, playing a pivotal role in the procurement of high-quality ingredients. Demonstrated effective communication and negotiation skills to secure optimal deals, guaranteeing the restaurant's commitment to excellence in every dish served."
         ],
     },
     {
-        title: "Fullstack Web Developer",
-        company_name: "Assembler Institute of Technology Barcelona",
+        title: "Junior Fullstack Dev.",
+        company_name: "BlockChain Solutions SL.",
         icon: shopify,
-        iconBg: "#D80720",
+        iconBg: "#fff",
         date: "March 2023 - Oct 2023",
         points: [
-            "Proficiently authored and refined code within the framework of Scrum methodologies, ensuring a structured and efficient development process. Maintained a commitment to agile principles, fostering a collaborative environment for optimized project delivery.",
-            "Collaborated closely with strategic partners to implement and deliver code of the highest standard. Prioritized the creation of clean codebases and user interfaces that not only met but exceeded industry expectations, ensuring a superior user experience.",
-            "Demonstrated expertise in leveraging cutting-edge technologies, including but not limited to Javascript, Typescript, React, Angular, NodeJs, NextJs, MongoDB, Express, Redux, Styled components, and Jest. Maintained a proactive approach to staying abreast of the latest advancements, contributing to a technologically progressive work environment.",
-            "Actively participated in comprehensive code reviews, offering constructive and insightful feedback to fellow developers. Contributed to the enhancement of overall code quality, fostering a culture of continuous improvement and knowledge sharing within the development team.",
+            "Constributed in the creation of two Blockchain related Tools, one for the creation of NFTs and the other for the creation of Smart Contracts, both built on React and NodeJs, with a SQL database.",
+            "Created from 0 a selenium test suite with Java for the company's products.",
+        ],
+    },
+    {
+        title: "Mid Fullstack Developer",
+        company_name: "Metary",
+        icon: meta,
+        iconBg: "#FFFFFF",
+        date: "Sept 2023 - March 2024",
+        points: [
+            "Helped on the creation of a Web3 search platform, with GPT technology for seamless and intelligent content discovery in the blockchain realm",
+            "Refactored the entire visual aspect of the platform, using Figma and Tailwind, to make it more user friendly and modern.",
         ],
     },
     {
         title: "Fullstack Developer",
-        company_name: "Metary.Tech",
-        icon: meta,
-        iconBg: "#FFFFFF",
-        date: "Sept 2023 - Now",
+        company_name: "Grupo TRC",
+        icon: trc,
+        iconBg: "#111056",
+        date: "Jan 2024 - Present",
         points: [
-            "Spearheaded the creation of a groundbreaking Web3 search platform, elevating blockchain exploration to unprecedented levels. Engineered the first-of-its-kind system integrating GPT technology for seamless and intelligent content discovery in the blockchain realm",
-            "Expertly navigated a diverse tech stack, seamlessly combining React, Tailwind, Node.js (AdonisJS), PostgreSQL, and PHP to craft a powerful and efficient search engine. Demonstrated prowess in harnessing the full potential of each technology to deliver a robust and high-performing platform.",
-            "Orchestrated the development process with the precision of Scrum methodology, utilizing GitHub and Jira for streamlined collaboration and project management. Ensured a nimble and adaptive workflow, allowing the team to respond dynamically to the evolving needs of the project.",
-            "Enforced a standard of excellence through the implementation of clean code practices. Meticulously crafted a codebase that not only fuels the platform's functionality but also stands as a testament to the commitment to quality, readability, and maintainability.",
+            "Developed a web application that help track and study hate crimes in the diferent social media platforms, using React, NodeJs and aa microservice system with a noSQL database.",
+            "Asisted my colleagues in the creation of diferent public security tools, like a facial recognition system and a license plate recognition system, using Python and Tensorflow.",
         ],
-    }
+    },
+
 ];
 
 const testimonials = [
@@ -194,6 +206,29 @@ const testimonials = [
         image: "https://media.licdn.com/dms/image/D4D03AQEPMqsWt_7TWA/profile-displayphoto-shrink_400_400/0/1695891781965?e=1703721600&v=beta&t=JTvMmRxQwPIqNPKwh7rBxiia3STUQlyQWLPTciPo8cI",
     },
 ];
+
+const alphaProjects = [
+    {
+        name: "3D Selfconstructed Museum",
+        description:
+            "A 3D web application that will server as a navigable and self constructed museum, where the user can see the art pieces and read about them.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ThreeJs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: museum
+    }
+]
 
 const projects = [
     {
@@ -228,7 +263,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "MongoDb and Cloudinary",
+                name: "MongoDb",
                 color: "green-text-gradient",
             },
             {
@@ -243,7 +278,7 @@ const projects = [
     {
         name: "Apollofy Audio Streaming",
         description:
-            "A Audio streaming platafform that simulates Spotify, allow users to listen to music and upload their own audios and personal albums.",
+            "A Audio streaming platafform that simulates Spotify, allow users to listen to music and upload their own audios and albums.",
         tags: [
             {
                 name: "React",
@@ -262,6 +297,51 @@ const projects = [
         source_code_link: "https://github.com/Madpug2022/apollofy-frontend",
         deploy_url: 'https://apollofy-frontend.vercel.app/home'
     },
+    {
+        name: "Pokedex",
+        description:
+            "A pokedex web application that allows users to search for pokemons and see their stats and abilities.",
+        tags: [
+            {
+                name: "React and NextJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pokedex,
+        source_code_link: "https://github.com/Madpug2022/Pokedex/",
+        deploy_url: 'https://pokedex-mauve-seven.vercel.app/'
+    },
+    {
+        name: "MediaStop",
+        description:
+            "A web application that allows users to search for movies and series and see their details and ratings.",
+        tags: [
+            {
+                name: "React and NextJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Motion Framer",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: mediaStop,
+        source_code_link: "https://github.com/Madpug2022/MediaStop",
+        deploy_url: "https://media-stop.vercel.app/",
+    },
+
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, alphaProjects };
